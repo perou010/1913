@@ -1,7 +1,5 @@
 from lcr_die import roll_die, stage_for_testing, check_testing
 
-coins = []
-
 def left (coins, player):
     coins[player] -= 1
     if player >=1:
